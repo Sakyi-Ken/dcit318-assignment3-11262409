@@ -10,7 +10,8 @@ namespace Assignment3.FinanceManagement.App
     public void Run()
     {
       // 1. Instantiate a SavingsAccount
-      var account = new SavingsAccount("ACC-1001", 1000m);
+      //var account = new SavingsAccount("ACC-1001", 1000m);
+      SavingsAccount account = new SavingsAccount("ACC-1001", 1000m);
       Console.WriteLine($"Starting balance for account {account.AccountNumber}: {account.Balance:C}\n");
 
       // 2. Create three Transaction records
@@ -39,7 +40,9 @@ namespace Assignment3.FinanceManagement.App
       account.ApplyTransaction(t3);
 
       // 4. Add transactions to list
-      _transactions.AddRange(new[] { t1, t2, t3 });
+      _transactions.AddRange([t1, t2, t3]);
+      // _transactions.AddRange(new[] { t1, t2, t3 });
+
 
       // Summary
       Console.WriteLine($"\nFinal balance: {account.Balance:C}");
