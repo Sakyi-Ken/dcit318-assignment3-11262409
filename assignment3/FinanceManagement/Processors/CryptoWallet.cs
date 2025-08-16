@@ -1,5 +1,3 @@
-using System;
-
 namespace Assignment3.FinanceManagement.Processors
 {
   public class CryptoWalletProcessor : ITransactionProcessor

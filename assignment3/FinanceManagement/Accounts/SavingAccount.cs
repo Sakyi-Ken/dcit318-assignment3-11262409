@@ -1,5 +1,3 @@
-using System;
-
 namespace Assignment3.FinanceManagement.Accounts
 {
   public sealed class SavingsAccount : Account
