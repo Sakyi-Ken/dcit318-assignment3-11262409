@@ -1,6 +1,6 @@
 namespace Assignment3.Models
 {
-  public class Patient
+  public class Patient : IEntity
   {
     public int Id { get; }
     public string Name { get; }
