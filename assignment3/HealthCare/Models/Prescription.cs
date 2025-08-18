@@ -1,6 +1,6 @@
 namespace Assignment3.Models
 {
-  public class Prescription
+  public class Prescription : IEntity
   {
     public int Id { get; }
     public int PatientId { get; }
