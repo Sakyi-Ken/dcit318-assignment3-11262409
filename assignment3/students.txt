@@ -1,0 +1,5 @@
+101,Alice Smith,84
+102,Bob Johnson,72
+103,Charlie Brown,65
+104,David Wilson,59
+105,Eva Adams,45
