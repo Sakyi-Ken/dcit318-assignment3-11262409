@@ -4,7 +4,7 @@ namespace assignment3.WarehouseInventory.Models
   {
     public int Id { get; }
     public string Name { get; }
-    public int Quantity { get; }
+    public int Quantity { get; set; }
     public DateTime ExpiryDate { get; }
 
     public GroceryItem(int id, string name, int quantity, DateTime expiryDate)

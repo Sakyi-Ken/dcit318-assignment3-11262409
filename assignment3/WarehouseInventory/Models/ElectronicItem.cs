@@ -4,7 +4,7 @@ namespace assignment3.WarehouseInventory.Models
   {
     public int Id { get; }
     public string Name { get; }
-    public int Quantity { get; }
+    public int Quantity { get; set; }
     public string Brand { get; }
     public int WarrantyMonths { get; }
 
