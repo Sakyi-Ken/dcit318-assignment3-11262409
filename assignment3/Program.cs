@@ -1,6 +1,7 @@
-﻿using Assignment3.FinanceManagement.App;
-using Assignment3.App;
-using assignment3.WarehouseInventory.App;
+﻿// using Assignment3.FinanceManagement.App;
+// using Assignment3.App;
+// using assignment3.WarehouseInventory.App;
+using assignment3.SchoolGradingSys.Processing;
 
 class Program
 {
@@ -12,7 +13,10 @@ class Program
     // var app = new HealthSystemApp();
     // app.Run();
 
-    var app = new WareHouseManager();
+    // var app = new WareHouseManager();
+    // app.Run();
+
+    var app = new StudentResultProcessor();
     app.Run();
   }
 }
