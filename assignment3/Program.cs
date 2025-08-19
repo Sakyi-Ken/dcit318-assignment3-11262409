@@ -1,5 +1,6 @@
 ﻿using Assignment3.FinanceManagement.App;
 using Assignment3.App;
+using assignment3.WarehouseInventory.App;
 
 class Program
 {
@@ -8,7 +9,10 @@ class Program
     // var app = new FinanceApp();
     //FinanceApp app = new FinanceApp();
 
-    var app = new HealthSystemApp();
+    // var app = new HealthSystemApp();
+    // app.Run();
+
+    var app = new WareHouseManager();
     app.Run();
   }
 }
