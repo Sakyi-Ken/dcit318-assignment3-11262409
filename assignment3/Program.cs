@@ -2,6 +2,7 @@
 // using Assignment3.App;
 // using assignment3.WarehouseInventory.App;
 using assignment3.SchoolGradingSys.Processing;
+using assignment3.InventorySystem.App;
 
 class Program
 {
@@ -16,7 +17,11 @@ class Program
     // var app = new WareHouseManager();
     // app.Run();
 
-    var app = new StudentResultProcessor();
+    // var app = new StudentResultProcessor();
+    // app.Run();
+
+    string filePath = "inventory.json"; // persisted as JSON
+    var app = new InventoryApp(filePath);
     app.Run();
   }
 }
