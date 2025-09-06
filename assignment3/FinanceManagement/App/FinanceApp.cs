@@ -5,7 +5,8 @@ namespace Assignment3.FinanceManagement.App
 {
   public class FinanceApp
   {
-    public readonly List<Transaction> _transactions = new();
+    // public readonly List<Transaction> _transactions = new();
+    public readonly List<Transaction> _transactions = [];
 
     public void Run()
     {
